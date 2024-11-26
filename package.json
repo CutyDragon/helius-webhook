@@ -1,17 +1,19 @@
 {
   "name": "helius-webhook",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["webhook", "discord", "helius", "express", "transaction"],
+  "author": "CutyDragon",
   "license": "ISC",
   "description": "",
   "dependencies": {
     "axios": "^1.7.7",
     "body-parser": "^1.20.3",
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "node-fetch": "^2.7.0",
+    "punycode": "^2.3.1"
   }
 }
